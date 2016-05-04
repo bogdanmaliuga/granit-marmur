@@ -371,7 +371,7 @@ figure.snip1470.hover figcaption {
 
 .about{
     text-align: center;
-    height: 1400px;
+    height: auto;
 }
 
 .about-text{
@@ -391,7 +391,9 @@ figure.snip1470.hover figcaption {
     width: 3px;
     background: #f1f1f1;
 }
-
+.about-item:last-child  .about-img:after{
+    display: none;
+}
 .about-text h5{
     line-height: 24px;
 }
