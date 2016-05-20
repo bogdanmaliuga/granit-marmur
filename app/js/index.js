@@ -1,5 +1,5 @@
 
- $(document).ready(function() {
+  $(document).ready(function() {
             // execute
             (function() {
                 // map options
@@ -12,27 +12,18 @@
 
                 // init map
                 var map = new google.maps.Map(document.getElementById('googleMap'), options);
-                var image = {
-    url: '../img/kitchen2.jpg',
-    // This marker is 20 pixels wide by 32 pixels high.
-    size: new google.maps.Size(50, 50),
-    // The origin for this image is (0, 0).
-    origin: new google.maps.Point(0, 0),
-    // The anchor for this image is the base of the flagpole at (0, 32).
-    anchor: new google.maps.Point(0, 32)
-  };
+
                 var marker1 = new google.maps.Marker({
                         position: new google.maps.LatLng(49.832402, 23.966342),
                         map: map,
-                        title: 'Офіс та склад '+'../img/kitchen2.jpg',
-                        icon:image
+                        title: 'Офіс, виробництво та склад'
                     });
 
                 (function(marker) {
                         // add click event
                         google.maps.event.addListener(marker, 'click', function() {
                             infowindow = new google.maps.InfoWindow({
-                                content: 'Hello, World!!'
+                                content: '(Офіс, виробництво та склад) м.Львів, вул.Городоцька 174/20'
                             });
                             infowindow.open(map, marker1);
                         });
@@ -49,7 +40,7 @@
                         // add click event
                         google.maps.event.addListener(marker, 'click', function() {
                             infowindow = new google.maps.InfoWindow({
-                                content: 'Hello, World!!'
+                                content: '(Магазин) м.Львів, вул.Городоцька 44'
                             });
                             infowindow.open(map, marker2);
                         });
@@ -64,12 +55,16 @@ $(document).ready(function() {
  $("#owl-demo").owlCarousel({
        
         autoplay: true,
-        autoplayTimeout: 5500,
+        autoplayTimeout: 4000,
         items: 1,                
-        loop: true       
+        loop: true
  });
- $(".but").click(function(){
-    $(".nav li").slideToggle();
+ 
+
+ $(".show-menu").click(function(){
+    
+
+    $(".hide-menu").slideToggle();
  });
 });
 
@@ -79,3 +74,4 @@ $(document).ready(function(){
     maxSlides: 6,
     slideMargin: 10});
 });
+

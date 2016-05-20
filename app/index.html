@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="img/KK_logo_icon.png"/>
     <link rel="stylesheet" href="css/normalize.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/media.css"/>
-    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/media.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>	
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>    
 	<script src="js/jquery-2.2.3.js"></script> 	
     <script src="js/owl.carousel.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>	
@@ -25,28 +25,43 @@
 		<div class="container clearfix">
 
             <div class="logo">
-                <a href="#"><img src="img/logo_green.png" alt="logo granite-marble"><h1>Граніт<span>-</span>Мармур</h1></a>
+                <a href="index.html"><img src="img/logo_green.png" alt="logo granite-marble"><h1>Граніт<span>-</span>Мармур</h1></a>
             </div>
-
+            <button class="call-us"><i class="fa fa-phone"></i></button>
+            <button class="show-menu"><i class="fa fa-bars"></i></button>
 	        <div class="nav">
-            <button class="butt"><i class="fa fa-bars"></i></button>
+           
 	        <ul>
-	        	
+	        		            
 	            <li><a href="#portfolio">Вироби</a></li>
 	            <li><a href="#materials">Матеріали</a></li>
+	            <li><a href="#portfolio">Галерея</a></li>
 	            <li><a href="#about">Процес</a></li>
+	            <li><a class="lowprice" href="#portfolio">Акції</a></li>
 	            <li><a href="#footer">Контакти</a></li>
-	            
+	            <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>	            
 	        </ul>
+	        
 
-	        <div class="soc-butt"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
-
-	        <table><tr><td><i class="fa fa-phone" aria-hidden="true"></i><span>+3803255565</span></td></tr><tr><td><i class="fa fa-mobile" aria-hidden="true"></i><span>+3809355565</span></td></tr></table>
+	        <table><tr><td><i class="fa fa-phone" aria-hidden="true"></i><span>+3803255565</span></td></tr><tr><td><i class="fa fa-mobile" aria-hidden="true"></i><span>+3809355565</span></td></tr></table> 
 	        </div>
 	        
 		</div>
 	</div>
-
+	<div class="hide-menu">
+	
+		<ul>
+	        	 <li><a href="#portfolio">Вироби</a></li>
+	            <li><a href="#materials">Матеріали</a></li>
+	            <li><a href="#portfolio">Галерея</a></li>
+	            <li><a href="#about">Процес</a></li>
+	            <li><a class="lowprice" href="#portfolio">Акції</a></li>
+	            <li><a href="#footer">Контакти</a></li>
+	            <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>	            
+	        </ul>
+	       
+	</div>
+	
    
     <div id="owl-demo" class="owl-carousel"> 
 
@@ -54,7 +69,8 @@
        <img src="img/hot_price.jpg" alt="hot price"/>
       	<div class="item-descr hot">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-      	 <a href="#">Акції</a>
+		<div class="more" align="center"><a href="#">Акції</a></div>
+      	 
        </div>
       </div>
 
@@ -62,7 +78,7 @@
        <img src="img/marble-granite-fabrication-process.jpg" alt="process"/>
       	<div class="item-descr">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-      	 <a href="#">Дізнатись більше</a>
+      	<div class="more" align="center"> <a href="#">Дізнатись більше</a></div>
        </div>
       </div>
 
@@ -70,7 +86,7 @@
       <img src="img/1418918793_slide-indoor-gallery.jpg" alt="orange tree"/>
       	<div class="item-descr">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-      	 <a href="#">Дізнатись більше</a>
+      	<div class="more" align="center"> <a href="#">Дізнатись більше</a></div>
        </div>
       </div> 
 
@@ -81,15 +97,23 @@
 	    <div class="container clearfix">	    
 	    <h2>Нові поставки</h2>
 	    	<div class="bxslider">
-			  <div class="slide"><img src="img/StounPict/10.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/9.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/8.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/7.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/6.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/5.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/4.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/3.jpg"></div>
-			  <div class="slide"><img src="img/StounPict/2.jpg"></div>
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/10.jpg"></div>
+			  
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/9.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/8.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/7.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/6.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/5.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/4.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/3.jpg"></div>
+
+			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/2.jpg"></div>
 			</div>			
 	    </div>  
     </div> 
@@ -98,7 +122,7 @@
 			<div class="container clearfix">
 				<h2 class="title">Вироби</h2>
 				<p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p>
-				<div class="portfolio-wrap">
+				<div class="portfolio-wrap container">
 					
 					<figure class="snip1470 portfolio-item">
 					  <img src="img/Projects_min/Windowsill_min.jpg" alt="Підвіконня">
@@ -160,34 +184,36 @@
 			</div>
 		</div>	
 	
-	<div class="portfolio box" id="materials">
+
+	<div class="separator"></div>
+	<div class="portfolio box" id="portfolio">
 			<div class="container clearfix">
 				<h2 class="title">Матеріали</h2>
 				<p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p>
-				<div class="portfolio-wrap">
+				<div class="portfolio-wrap clearfix">
 					
-					<figure class="snip1470 material-item">
+					<figure class="snip1470 mat-item">
 					  <img src="img/Materials/marmur.jpg" alt="Мармур">
 					  <figcaption>
 					    <h2>Мармур</h2>
 					    <p>Карбонатна мтаморфічна гірськапорода, що утворилася внаслідок перекристалізації вапняку або доломіту. Мармур широко використовується для скульптурних робіт і у будівництві. Буває забарвлений домішками в найрізноманітніші кольори. Легко піддається механічній обробці.</p>
 					   
 					  </figcaption>
-					   <a href="#"></a>
+					   <a href="windowsill.html"></a>
 					</figure>
 						
 					
-						<figure class="snip1470 material-item">
-					  <img src="img/Materials/aglomarmur.jpg" alt="агломармур">
+						<figure class="snip1470 mat-item">
+					   <img src="img/Materials/aglomarmur.jpg" alt="агломармур">
 					  <figcaption>
 					    <h2>Агломармур</h2>
 					    <p>Штучний мармур - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів мармуру (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Агломармур має більшу кольорову гаму, ніж мармур, має кращі фізико-механічні характеристики.</p>
 					   
 					  </figcaption>
-					   <a href="#"></a>
+					   <a href="kitchen.html"></a>
 					</figure>	
-						<figure class="snip1470 material-item">
-					  <img src="img/Materials/quartzite.jpg" alt="аглокварцит">
+						<figure class="snip1470 mat-item">
+					 <img src="img/Materials/quartzite.jpg" alt="аглокварцит">
 					  <figcaption>
 					    <h2>Аглокварцит</h2>
 					    <p>Штучний кварцит - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів кварциту (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Аглокварцит має кращі фізико-механічні характеристики, ніж мармур та агломармур, має велику кольорову гаму.</p>
@@ -195,113 +221,52 @@
 					  </figcaption>
 					   <a href="#"></a>
 					</figure>
-						<figure class="snip1470 material-item">
-					  <img src="img/Materials/granites.png" alt="Граніт">
+						<figure class="snip1470 mat-item">
+					    <img src="img/Materials/granites.png" alt="Граніт">
 					  <figcaption>
 					    <h2>Граніт</h2>
 					    <p>Інтрузивна порода із зернистою структурою. Глибинна кисла магматична гірська порода. Колір граніту обумовлений забарвленням польових шпатів — може бути ясно-сірий, жовтуватий, рожевий, червоний, зелений. Використовують для виготовлення скульптурних виробів, як будівельний матеріал.</p>
 					   
 					  </figcaption>
+					
 					   <a href="#"></a>
-					</figure>
-						<figure class="snip1470 material-item">
-					  <img src="img/Materials/tenax.jpg" alt="Засоби догляду">
-					  <figcaption>
-					    <h2>Засоби догляду</h2>
-					    <p>- воскові поліролі,<br>- засоби для очищення каменю,<br>- засоби для захисту каменю.</p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>
-																			
+					</figure>													
 				</div>
 			</div>
 		</div>	
 
-	<div class="about box" id="about">
-			<div class="container clearfix">
-				<h2 class="title">About Us</h2>
-				<p class="descr">Lorem ipsum dolor sit amet, consectetur.</p>
-				<div class="about-wrap">
-					<div class="about-item clearfix" >
-						<div class="about-text left text-right">
-							<h5 class="title">
-								Stone Selection
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum rerum esse eligendi laudantium iste nulla iusto magnam provident, velit odio reiciendis? Optio, fuga, quisquam.
-							</p>
-						</div>
-						<div class="about-img left" >
-							<img src="img/stone.jpg" alt="">
-						</div>
-					</div>	
-					<div class="about-item clearfix">
-						<div class="about-text right text-left">
-							<h5 class="title">
-								Template & Layout
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum rerum esse eligendi laudantium iste nulla iusto magnam provident, velit odio reiciendis? Optio, fuga, quisquam.
-							</p>
-						</div>
-						<div class="about-img right">
-							<img src="img/template.jpg" alt="">
-						</div>
-					</div>	
-					<div class="about-item clearfix">
-						<div class="about-text left text-right">
-							<h5 class="title">
-								Fabrication
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum rerum esse eligendi laudantium iste nulla iusto magnam provident, velit odio reiciendis? Optio, fuga, quisquam.
-							</p>
-						</div>
-						<div class="about-img left">
-							<img src="img/fabrication.jpg" alt="">
-						</div>
-					</div>	
-					<div class="about-item clearfix">
-						<div class="about-text right text-left">
-							<h5 class="title">
-								Installation
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum rerum esse eligendi laudantium iste nulla iusto magnam provident, velit odio reiciendis? Optio, fuga, quisquam.
-							</p>
-						</div>
-						<div class="about-img right">
-							<img src="img/instalation.jpg" alt="">
-						</div>
-					</div>	
-					<div class="about-item clearfix">
-						<div class="about-text left text-right">
-							<h5 class="title">
-								Maintenance
-							</h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum rerum esse eligendi laudantium iste nulla iusto magnam provident, velit odio reiciendis? Optio, fuga, quisquam.
-							</p>
-						</div>
-						<div class="about-img left">
-							<img src="img/main.jpg" alt="">
-						</div>
-					</div>	
 
-				</div>
-			</div>
-		</div>	
+	
    	<div class="footer box" id="footer">
-   		<div class="container clearfix">	   		   			
+   		<div class="container">	   		   			
 
    				<div class="contact-info">
-   				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p><hr>
-   				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p>
+   				<p>
+	   				<h2>Магазин</h2>
+	   				<a href="https://goo.gl/maps/2MZmNHDxF9o"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 44</a><br>
+
+	   				<a href="tel:+380322333460"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2333460</a><br>
+
+	   				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</a><br>
+
+				</p>
+				<div class="line"></div>
+   				<p>
+   					<h2>Офіс</h2>
+	   				<a href="https://goo.gl/maps/NSu2Jj73yir"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 174/20</a><br>
+	   				
+
+	   				<a href="tel:+380322451532"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2451532</a><br>
+	   				
+	   				<a href="mailto:granit-marmur@lviv.farlep.net?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit-marmur@lviv.farlep.net</a><br>
+
+	   				<a href="mailto:granit.marmur@gmail.com?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit.marmur@gmail.com</a><br>
+	   					   				
+   				</p>
    				</div>
 
-				<div id="googleMap" class="map"></div>
-					   		 			
+				<div id="googleMap" class="map"></div>				
+
    		</div>
    	</div>
 

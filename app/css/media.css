@@ -1,30 +1,126 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container{
+		width: 99%;
+	}
+.show-menu,.hide-menu{
+		display: none;
+	}
+	
+}
 @media only screen and (max-width : 1200px) {
+	.container{
+		width: 99%;
+	}
+.show-menu,.hide-menu{
+		display: none;
+	}
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
-	.nav li{
+	i.fa.fa-facebook-square {
+    font-size: 12px;
+}
+	.nav a{
+		font-size: 10px;
+		padding:29px 6px;
+	}
+	.nav a:hover{
+		padding:25.5px 6px;
+	}
+	.show-menu,.hide-menu{
 		display: none;
 	}
-
-	.nav li:first-child, li:last-child{
-	    display: inline;
-	}
+	.item-descr{
+	font-size: 1em;
+}
+	.logo h1{
+		font-family: 'Roboto Condensed', sans-serif;
+	} 
+	 .portfolio-item p{ 
+  		font-size: 0.8em;
+  }
+   .material-item p{ 
+  		font-size: 0.8em;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+  .portfolio-item{
+  	float: left;
+  }
+   .portfolio-item p{ 
+  		font-size: 0.8em;
+  }
+  figure.snip1470 {
+  	width: 49%;
+  	
+  	margin-left: 0.5%;
+
+  }
+  .nav ul{
+  	display: none
+  }
+  .show-menu{
+		display: block;
+	}
+  .nav table{
+  	margin: 5px 5px;
+  	display: block;
+  }
+
 	
+.item-descr{
+	font-size: 0.75em;
+}
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+	.portfolio-item{
+  	float: left;
+  
+  }
+   .portfolio-item p{ 
+  		font-size: 1em;
+  }
+  .portfolio-item p{ 
+  		font-size: 1em;
+  }
+  figure.snip1470 {
+  	width: 90%;
+  	margin: 5px 5%;
+  }
+	.call-us{
+		display: block;
+	}
+
+  .nav ul{
+  	display: none
+  }
+  .show-menu{
+		display: block;
+	}
+  .nav table{
+  	
+  	display: none;
+  }
+
+  .nav table{
+
+  }
+	.item-descr{
+	font-size: 0.5em;
+	}
+	
 }
 
 /* Custom, iPhone Retina */
