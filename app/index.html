@@ -1,274 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Граніт-Мармур</title>
+    <meta charset="UTF-8">
+    <title>Граніт-Мармур</title>
     <meta name="description" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="img/KK_logo_icon.png"/>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/media.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>	
-    <link rel="stylesheet" href="css/jquery.bxslider.css"/>    
-	<script src="js/jquery-2.2.3.js"></script> 	
+    <link rel="shortcut icon" href="img/KK_logo_icon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <script src="js/jquery-2.2.3.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js"></script>	
-    <script src="js/jquery.bxslider.min.js"/></script>	 
-    <script src="js/index.js"></script>    
-
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script  async src="js/index.js"></script>
 </head>
+
 <body>
-	<div class="header">
-		<div class="container clearfix">
-
+    <div class="header">
+        <div class="container clearfix">
             <div class="logo">
-                <a href="index.html"><img src="img/logo_green.png" alt="logo granite-marble"><h1>Граніт<span>-</span>Мармур</h1></a>
+                <a href="index.html"><img src="img/logo_green.png" alt="logo granite-marble"><h1>Граніт<span>-</span>Мармур</h1>
+                </a>
             </div>
-            <button class="call-us"><i class="fa fa-phone"></i></button>
-            <button class="show-menu"><i class="fa fa-bars"></i></button>
-	        <div class="nav">
-           
-	        <ul>
-	        		            
-	            <li><a href="#portfolio">Вироби</a></li>
-	            <li><a href="#materials">Матеріали</a></li>
-	            <li><a href="#portfolio">Галерея</a></li>
-	            <li><a href="#about">Процес</a></li>
-	            <li><a class="lowprice" href="#portfolio">Акції</a></li>
-	            <li><a href="#footer">Контакти</a></li>
-	            <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>	            
-	        </ul>
-	        
-
-	        <table><tr><td><i class="fa fa-phone" aria-hidden="true"></i><span>+3803255565</span></td></tr><tr><td><i class="fa fa-mobile" aria-hidden="true"></i><span>+3809355565</span></td></tr></table> 
-	        </div>
-	        
-		</div>
-	</div>
-	<div class="hide-menu">
-	
-		<ul>
-	        	 <li><a href="#portfolio">Вироби</a></li>
-	            <li><a href="#materials">Матеріали</a></li>
-	            <li><a href="#portfolio">Галерея</a></li>
-	            <li><a href="#about">Процес</a></li>
-	            <li><a class="lowprice" href="#portfolio">Акції</a></li>
-	            <li><a href="#footer">Контакти</a></li>
-	            <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>	            
-	        </ul>
-	       
-	</div>
-	
-   
-    <div id="owl-demo" class="owl-carousel"> 
-
-    	<div class="item">
-       <img src="img/hot_price.jpg" alt="hot price"/>
-      	<div class="item-descr hot">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-		<div class="more" align="center"><a href="#">Акції</a></div>
-      	 
-       </div>
-      </div>
-
-       <div class="item">
-       <img src="img/marble-granite-fabrication-process.jpg" alt="process"/>
-      	<div class="item-descr">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-      	<div class="more" align="center"> <a href="#">Дізнатись більше</a></div>
-       </div>
-      </div>
-
-      <div class="item">
-      <img src="img/1418918793_slide-indoor-gallery.jpg" alt="orange tree"/>
-      	<div class="item-descr">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
-      	<div class="more" align="center"> <a href="#">Дізнатись більше</a></div>
-       </div>
-      </div> 
-
+            <a class="call-us" href="tel:+3809355565"><i class="fa fa-phone"></i></a>
+            <button class="show-menu" id="show-menu"><i class="fa fa-bars"></i></button>
+            <div class="phones right">
+                <i class="fa fa-phone" aria-hidden="true"></i><span>+3803255565</span></br><i class="fa fa-mobile" aria-hidden="true"></i><span>+3809355565</span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#portfolio">Вироби</a></li>
+                    <li><a href="#materials">Матеріали</a></li>
+                    <li><a href="#portfolio">Галерея</a></li>
+                    <li><a href="process.html">Процес</a></li>
+                    <li><a class="lowprice" href="#portfolio">Акції</a></li>
+                    <li><a href="#footer">Контакти</a></li>
+                    <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-
+    <div class="hide-menu" id="hide-menu">
+        <ul>
+            <li><a href="#portfolio">Вироби</a></li>
+            <li><a href="#materials">Матеріали</a></li>
+            <li><a href="#portfolio">Галерея</a></li>
+            <li><a href="process.html">Процес</a></li>
+            <li><a class="lowprice" href="#portfolio">Акції</a></li>
+            <li><a href="#footer">Контакти</a></li>
+            <li><a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</a></li>
+        </ul>
+    </div>
+    <div id="owl-demo" class="owl-carousel">
+        <div class="item">
+            <img src="img/hot_price.jpg" alt="hot price" />
+            <div class="item-descr hot">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
+                <div class="more"><a href="#">Акції</a></div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/marble-granite-fabrication-process.jpg" alt="process" />
+            <div class="item-descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
+                <div class="more"> <a href="#">Дізнатись більше</a></div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/1418918793_slide-indoor-gallery.jpg" alt="orange tree" />
+            <div class="item-descr">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus</p>
+                <div class="more"> <a href="#">Дізнатись більше</a></div>
+            </div>
+        </div>
+    </div>
     <div class="slider">
-	    <div class="container clearfix">	    
-	    <h2>Нові поставки</h2>
-	    	<div class="bxslider">
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/10.jpg"></div>
-			  
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/9.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/8.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/7.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/6.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/5.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/4.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/3.jpg"></div>
-
-			  <div class="slide"><h3>name of stone</h3><img src="img/StounPict/2.jpg"></div>
-			</div>			
-	    </div>  
-    </div> 
-
-	<div class="portfolio box" id="portfolio">
-			<div class="container clearfix">
-				<h2 class="title">Вироби</h2>
-				<p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p>
-				<div class="portfolio-wrap container">
-					
-					<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/Windowsill_min.jpg" alt="Підвіконня">
-					  <figcaption>
-					    <h2>Підвіконня</h2>
-					    <p>Натуральний камінь - найкращий матеріал для виготовлення підвіконь. Підвіконня з натурального каменю довговічні, міцні та зручні в експлуатації. Навідміну від пластикових підвіконь - не піддаються деформації від препаду температури. На підвіконні з каменю ніколи не появляться круги від горшків для квітів, вони не вицвітають, стійки до дії води, мають високі гігієнічні властивості.Такі підвіконня підходять до будь-яких видів вікон, вони прослужать десятки років і не будуть потребувати спеціального догляду.</p>
-					   
-					  </figcaption>
-					   <a href="windowsill.html"></a>
-					</figure>
-						
-					
-						<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/Kitchen_min.jpg" alt="Кухня">
-					  <figcaption>
-					    <h2>Стільниці</h2>
-					    <p>Гранітні та мармурові стільниці є одним із найпопулярніших виробів з натурального каменю. Полірований камінь зручний, міцний, гігієнічний, тобто є ідеальним матеріалом для кухонного стола. Наше обладнання дозволяє швидко виготовити кухонну стільницю чи барну стійку з каменю практично будь-якої форми - прямокутної, овальної, несиметричної.</p>
-					   
-					  </figcaption>
-					   <a href="kitchen.html"></a>
-					</figure>	
-						<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/Floor_min.jpg" alt="Підлога">
-					  <figcaption>
-					    <h2>Підлога</h2>
-					    <p>Різноманіття окрасу, складу, структури і текстури граніту та мармуру дозволяє використовувати їх для укладання підлог в найрізноманітніших будівлях та приміщеннях: житлових приміщеннях, барах, ресторанах, офісах.</p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>
-						<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/Stairway_min.jpg" alt="">
-					  <figcaption>
-					    <h2>Сходи</h2>
-					    <p>Сходи з мармуру та граніту мають високу міцність, витривалість та морозостійкість. Вони використовуються як в приміщеннях, так і ззовні. Сучасне обладнання дозволяє виготовити високоякісні вироби по ескізах замовника. Широке різноманіття фактур, кольорів та відтінків дозволяє виготовити сходи в будь-якому архітектурному стилі.</p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>
-						<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/bath_min.jpg" alt="Ванна">
-					  <figcaption>
-					    <h2>Ванні кімнати</h2>
-					    <p>Граніт та мармур - ідеальні матеріали для ванної кімнати. Вироби з мармуру надають ванним кімнатам інтимності, затишку та безпеки. Мармурові стільниці не лише нададуть ванній кімнаті комфорту, але й зроблять її неповторною. До того ж мармур має антибактерицидні властивості, і стільниця буде сприятливо впливати на Ваше здоров'я.</p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>
-						<figure class="snip1470 portfolio-item">
-					  <img src="img/Projects_min/fireplace.jpg" alt="камін">
-					  <figcaption>
-					    <h2>Каміни</h2>
-					    <p>Камін - символ домашнього затишку, тепла і престижу. Вечір біля каміна не тільки знімає втому, але й наповнює здоровою енергією. Крім того, грамотно підібраний камін стає родзинкою інтер'єру та невід'ємною частиною домашнього вогнища. Отже, призначенням каміна є зігріти не тільки дім, але й душу. Ми пропонуємо послуги з виготовлення та монтажу камінних порталів з натурального каменю. </p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>														
-				</div>
-			</div>
-		</div>	
-	
-
-	<div class="separator"></div>
-	<div class="portfolio box" id="portfolio">
-			<div class="container clearfix">
-				<h2 class="title">Матеріали</h2>
-				<p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus.</p>
-				<div class="portfolio-wrap clearfix">
-					
-					<figure class="snip1470 mat-item">
-					  <img src="img/Materials/marmur.jpg" alt="Мармур">
-					  <figcaption>
-					    <h2>Мармур</h2>
-					    <p>Карбонатна мтаморфічна гірськапорода, що утворилася внаслідок перекристалізації вапняку або доломіту. Мармур широко використовується для скульптурних робіт і у будівництві. Буває забарвлений домішками в найрізноманітніші кольори. Легко піддається механічній обробці.</p>
-					   
-					  </figcaption>
-					   <a href="windowsill.html"></a>
-					</figure>
-						
-					
-						<figure class="snip1470 mat-item">
-					   <img src="img/Materials/aglomarmur.jpg" alt="агломармур">
-					  <figcaption>
-					    <h2>Агломармур</h2>
-					    <p>Штучний мармур - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів мармуру (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Агломармур має більшу кольорову гаму, ніж мармур, має кращі фізико-механічні характеристики.</p>
-					   
-					  </figcaption>
-					   <a href="kitchen.html"></a>
-					</figure>	
-						<figure class="snip1470 mat-item">
-					 <img src="img/Materials/quartzite.jpg" alt="аглокварцит">
-					  <figcaption>
-					    <h2>Аглокварцит</h2>
-					    <p>Штучний кварцит - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів кварциту (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Аглокварцит має кращі фізико-механічні характеристики, ніж мармур та агломармур, має велику кольорову гаму.</p>
-					   
-					  </figcaption>
-					   <a href="#"></a>
-					</figure>
-						<figure class="snip1470 mat-item">
-					    <img src="img/Materials/granites.png" alt="Граніт">
-					  <figcaption>
-					    <h2>Граніт</h2>
-					    <p>Інтрузивна порода із зернистою структурою. Глибинна кисла магматична гірська порода. Колір граніту обумовлений забарвленням польових шпатів — може бути ясно-сірий, жовтуватий, рожевий, червоний, зелений. Використовують для виготовлення скульптурних виробів, як будівельний матеріал.</p>
-					   
-					  </figcaption>
-					
-					   <a href="#"></a>
-					</figure>													
-				</div>
-			</div>
-		</div>	
-
-
-	
-   	<div class="footer box" id="footer">
-   		<div class="container">	   		   			
-
-   				<div class="contact-info">
-   				<p>
-	   				<h2>Магазин</h2>
-	   				<a href="https://goo.gl/maps/2MZmNHDxF9o"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 44</a><br>
-
-	   				<a href="tel:+380322333460"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2333460</a><br>
-
-	   				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</a><br>
-
-				</p>
-				<div class="line"></div>
-   				<p>
-   					<h2>Офіс</h2>
-	   				<a href="https://goo.gl/maps/NSu2Jj73yir"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 174/20</a><br>
-	   				
-
-	   				<a href="tel:+380322451532"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2451532</a><br>
-	   				
-	   				<a href="mailto:granit-marmur@lviv.farlep.net?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit-marmur@lviv.farlep.net</a><br>
-
-	   				<a href="mailto:granit.marmur@gmail.com?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit.marmur@gmail.com</a><br>
-	   					   				
-   				</p>
-   				</div>
-
-				<div id="googleMap" class="map"></div>				
-
-   		</div>
-   	</div>
-
+        <div class="container clearfix">
+            <h2>Нові поставки</h2>
+            <div class="bxslider">
+                <div class="slide">
+                    <img src="img/StounPict/10.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/9.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/8.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/7.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/6.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/5.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/4.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/3.jpg"  title="Граніт" alt="Опис"></div>
+                <div class="slide">
+                    <img src="img/StounPict/2.jpg"  title="Граніт" alt="Опис"></div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio box" id="portfolio">
+        <div class="container clearfix">
+            <h2 class="title">Вироби</h2>
+            <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Побачити більше можна у <a href="kitchen.html">галереї</a></p>
+            <div class="portfolio-wrap container">
+                <a href="windowsill.html">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/Windowsill_min.jpg" alt="Підвіконня">
+                        <figcaption>
+                            <h2>Підвіконня</h2>
+                            <p>Натуральний камінь - найкращий матеріал для виготовлення підвіконь. Підвіконня з натурального каменю довговічні та міцні. Навідміну від пластикових підвіконь - не піддаються деформації від препаду температури. На підвіконні з каменю ніколи не появляться круги від горшків для квітів, вони не вицвітають, стійки до дії води, мають високі гігієнічні властивості.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="kitchen.html">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/Kitchen_min.jpg" alt="Кухня">
+                        <figcaption>
+                            <h2>Стільниці</h2>
+                            <p>Гранітні та мармурові стільниці є одним із найпопулярніших виробів з натурального каменю. Полірований камінь зручний, міцний, гігієнічний, тобто є ідеальним матеріалом для кухонного стола. Наше обладнання дозволяє швидко виготовити кухонну стільницю чи барну стійку з каменю практично будь-якої форми - прямокутної, овальної, несиметричної.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/Floor_min.jpg" alt="Підлога">
+                        <figcaption>
+                            <h2>Підлога</h2>
+                            <p>Різноманіття окрасу, складу, структури і текстури граніту та мармуру дозволяє використовувати їх для укладання підлог в найрізноманітніших будівлях та приміщеннях: житлових приміщеннях, барах, ресторанах, офісах.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/Stairway_min.jpg" alt="Сходи">
+                        <figcaption>
+                            <h2>Сходи</h2>
+                            <p>Сходи з мармуру та граніту мають високу міцність, витривалість та морозостійкість. Вони використовуються як в приміщеннях, так і ззовні. Сучасне обладнання дозволяє виготовити високоякісні вироби по ескізах замовника. Широке різноманіття фактур, кольорів та відтінків дозволяє виготовити сходи в будь-якому архітектурному стилі.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/bath_min.jpg" alt="Ванна">
+                        <figcaption>
+                            <h2>Ванні кімнати</h2>
+                            <p>Граніт та мармур - ідеальні матеріали для ванної кімнати. Вироби з мармуру надають ванним кімнатам інтимності, затишку та безпеки. Мармурові стільниці не лише нададуть ванній кімнаті комфорту, але й зроблять її неповторною. До того ж мармур має антибактерицидні властивості, і стільниця буде сприятливо впливати на Ваше здоров'я.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 portfolio-item">
+                        <img src="img/Projects_min/fireplace.jpg" alt="камін">
+                        <figcaption>
+                            <h2>Каміни</h2>
+                            <p>Камін - символ домашнього затишку, тепла і престижу. Вечір біля каміна не тільки знімає втому, але й наповнює здоровою енергією. Крім того, грамотно підібраний камін стає родзинкою інтер'єру та невід'ємною частиною домашнього вогнища. Отже, призначенням каміна є зігріти не тільки дім, але й душу. Ми пропонуємо послуги з виготовлення та монтажу камінних порталів з натурального каменю. </p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="portfolio box" id="materials">
+        <div class="container clearfix">
+            <h2 class="title">Матеріали</h2>
+            <p class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et risus lobortis, lobortis purus feugiat, dapibus dui. Donec a fringilla libero. Aliquam ac sollicitudin arcu, in fringilla risus. Побачити більше можна у <a href="windowsill">галереї</a></p>
+            <div class="portfolio-wrap clearfix">
+                <a href="#">
+                    <figure class="snip1470 mat-item">
+                        <img src="img/Materials/marmur.jpg" alt="Мармур">
+                        <figcaption>
+                            <h2>Мармур</h2>
+                            <p>Карбонатна мтаморфічна гірськапорода, що утворилася внаслідок перекристалізації вапняку або доломіту. Мармур широко використовується для скульптурних робіт і у будівництві. Буває забарвлений домішками в найрізноманітніші кольори. Легко піддається механічній обробці.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 mat-item">
+                        <img src="img/Materials/aglomarmur.jpg" alt="агломармур">
+                        <figcaption>
+                            <h2>Агломармур</h2>
+                            <p>Штучний мармур - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів мармуру (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Агломармур має більшу кольорову гаму, ніж мармур, має кращі фізико-механічні характеристики.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 mat-item">
+                        <img src="img/Materials/quartzite.jpg" alt="аглокварцит">
+                        <figcaption>
+                            <h2>Аглокварцит</h2>
+                            <p>Штучний кварцит - продукт промислового виробництва, який отримується у результаті змішування порошків із різних видів кварциту (95% від загального об'єму) з невеликою кількістю пігментів, добавок та зв'язуючих елементів (смола чи цемент). Аглокварцит має кращі фізико-механічні характеристики, ніж мармур та агломармур, має велику кольорову гаму.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="snip1470 mat-item">
+                        <img src="img/Materials/granites.jpg" alt="Граніт">
+                        <figcaption>
+                            <h2>Граніт</h2>
+                            <p>Інтрузивна порода із зернистою структурою. Глибинна кисла магматична гірська порода. Колір граніту обумовлений забарвленням польових шпатів — може бути ясно-сірий, жовтуватий, рожевий, червоний, зелений. Використовують для виготовлення скульптурних виробів, як будівельний матеріал.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer box" id="footer">
+        <div class="container">
+            <div class="contact-info">
+                <p>
+                    <h2>Магазин</h2>
+                    <a href="https://goo.gl/maps/2MZmNHDxF9o"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 44</a>
+                    <br>
+                    <a href="tel:+380322333460"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2333460</a>
+                    <br>
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</a>
+                    <br>
+                </p>
+                <div class="line"></div>
+                <p>
+                    <h2>Офіс</h2>
+                    <a href="https://goo.gl/maps/NSu2Jj73yir"><i class="fa fa-map-marker" aria-hidden="true"></i>Україна 79016 м. Львів, вул. Городоцька 174/20</a></br>
+                    <a href="tel:+380322451532"><i class="fa fa-phone" aria-hidden="true"></i>+380 32 2451532</a></br>
+                    <a href="mailto:granit-marmur@lviv.farlep.net?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit-marmur@lviv.farlep.net</a></br>
+                    <a href="mailto:granit.marmur@gmail.com?subject=mail from web-page"><i class="fa fa-envelope" aria-hidden="true"></i>granit.marmur@gmail.com</a></br>
+                </p>
+            </div>
+            <div id="googleMap" class="map"></div>
+        </div>
+    </div>
 </body>
+
 </html>
