@@ -61,6 +61,48 @@ $(document).ready(function() {
 });
 
 
+jQuery(window).resize(function () {
+      var width = jQuery(window).width();
+      var height = jQuery(window).height();
+      if(width>820){
+         $(document).ready(function(){
+           $(".hide-menu").hide();
+           });
+      }
+    
+
+ });
+
+
+jQuery(window).resize(function () {
+      var width = jQuery(window).width();
+      var height = jQuery(window).height();
+    if(width<992){
+        
+         $(".gallary-nav li").click(function() {
+              $(".gallary-nav").hide();
+          });
+    }
+    
+       else {
+        
+        
+              $(".gallary-nav").show();
+          
+       }
+
+ });
+
+
+$(document).ready(function(){
+          $(".hide-menu li").click(function() {
+              $(".hide-menu").hide();
+          });
+    
+});
+
+
+
 
 
 
@@ -75,9 +117,10 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function($) {
+
+$(document).ready(function() {
     $("#show-menu").click(function() {
-        $("#hide-menu").toggle();
+        $(".hide-menu").toggle();
     });
 });
 

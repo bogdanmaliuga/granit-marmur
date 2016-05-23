@@ -101,7 +101,9 @@ a {
     font-family: 'Roboto', sans-serif;
     padding-left: 4px;
 }
-
+.hide-menu{
+        display: none;
+    }
 .show-menu {
     float: right;
     background-color: transparent;

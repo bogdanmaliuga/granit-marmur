@@ -5,7 +5,6 @@
 
 @media all and (min-width: 1200px) {
     .show-menu,
-    .hide-menu,
     .show-gallary-menu {
         display: none;
     }
@@ -16,7 +15,7 @@
         font-size: 1em;
     }
     .show-menu,
-    .hide-menu,
+    
     .show-gallary-menu {
         display: none;
     }
@@ -26,6 +25,10 @@
 /* Medium Devices, Desktops */
 
 @media all and (max-width: 992px) {
+   
+    .hide-menu{
+        display: none;
+    }
     .gallary-nav.left {
         float: none;
         display: none;
@@ -49,8 +52,7 @@
     .show-gallary-menu {
         display: block;
     }
-    .show-menu,
-    .hide-menu {
+    .show-menu {
         display: none;
     }
     .item-descr {
@@ -68,6 +70,8 @@
 }
 
 @media all and (max-width: 820px) {
+    
+    
     .nav ul {
         display: none
     }
@@ -78,9 +82,7 @@
         margin: 1px 5px;
         display: block;
     }
-    .hide-menu {
-        display: none;
-    }
+ 
 }
 
 
