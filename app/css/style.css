@@ -34,18 +34,16 @@ a {
 }
 
 .logo h1 {
-    font-family: sans-serif;
-    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
+    font-size: 26px;
     display: inline;
     margin: 13px 0px;
     margin-left: 3px;
     padding: 2px;
     text-transform: uppercase;
     color: #4e3928;
-    font-weight: 500;
-    /*border: 1px solid #4E3928;*/
-    /*text-shadow: 2px 2px 3px #aaa;*/
+    font-weight: 400;
 }
 
 .logo h1 span {
@@ -73,8 +71,12 @@ a {
 
 .phones {
     padding: 9px 0;
+    margin-left: 8px;
 }
-
+.phones span {
+    font-family: 'Roboto', Sans-serif;
+    font-weight: 400;    
+}
 .nav a {
     text-decoration: none;
     text-align: center;
@@ -101,9 +103,10 @@ a {
     font-family: 'Roboto', sans-serif;
     padding-left: 4px;
 }
+
 .hide-menu{
-        display: none;
-    }
+    display: none;
+}
 .show-menu {
     float: right;
     background-color: transparent;
@@ -225,6 +228,11 @@ i.fa.fa-facebook-square {
     margin: 0 auto;
     text-align: center;
 }
+.materials {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .portfolio-wrap {
     width: 100%;
@@ -296,10 +304,10 @@ i.fa.fa-facebook-square {
     z-index: 1;
 }
 
-.contact-info {
+.contact-info{
     font: 17px 'Roboto', Sans-Serif;
     float: left;
-    width: 35%;
+    width: 40%;
     /*padding: 10px 10px 10px 0;*/
     text-align: left;
     color: #FFFFF3;
@@ -307,13 +315,7 @@ i.fa.fa-facebook-square {
     padding-top: 5px;
 }
 
-.map {
-    display: inline-block;
-    float: right;
-    width: 60%;
-    height: 250px;
-    /*margin: 20px 0 20px 20px;*/
-}
+
 
 .contact-info h2 {
     margin-top: 0px;
@@ -324,6 +326,8 @@ i.fa.fa-facebook-square {
     /* text-shadow: 1px 1px 1px; */
 }
 
+
+
 .contact-info i {
     font-size: 20px;
     padding-right: 5px;
@@ -333,9 +337,11 @@ i.fa.fa-facebook-square {
     font-size: 15px;
 }
 
+
 .contact-info i.fa.fa-facebook-square {
     font-size: 16px;
 }
+
 
 .contact-info i.fa.fa-envelope {
     font-size: 16px;
@@ -345,17 +351,14 @@ i.fa.fa-facebook-square {
     font-size: 22px;
 }
 
+
 .contact-info a {
     color: #FFFFF3;
 }
 
-.contact-info p {
-    margin: 0px;
-}
 
-.contact-info img {
-    width: 95%;
-}
+
+
 
 .line {
     border-bottom: 1px solid #00886e;
@@ -637,26 +640,36 @@ ul.main-menu {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
-    line-height: 35px;
+    line-height: 32px;
 }
 
-.sub li {
+ul.main-menu a{
+    display: block;
+    color: #4e3928;
+}
+ul.main-menu li{
     border-bottom: 1px solid #F1F1FF;
     color: #222;
+    margin-left: 40px;
 }
 
-.sub li:hover {
-    border-bottom: 1px solid #00886e;
+ul.main-menu li.title{    
+    margin-left: 0px;
+}
+
+ul.main-menu a:hover{
     color: #00886e;
 }
 
-#title {
-    margin-left: -40px;
+ul.main-menu li:hover{
+    border-color: #00886e;    
 }
 
-#active {
-    border-bottom: 1px solid #00886e;
+li#active a{    
     color: #00886e;
+}
+li#active{    
+    border-color: #00886e;
 }
 
 .fotorama__thumb-border {
@@ -728,3 +741,24 @@ ul.main-menu {
     /* position: absolute; */
 }
 
+
+.shop,.office{
+    width: 100%;
+}
+.map{
+    padding-top: 20px;
+    float: right;
+    width: 60%;
+}
+
+.map img{
+
+    max-width: 100%;
+    width: 100%
+}
+.shop .contact-info{
+    padding-top: 30px;
+}
+.office .contact-info{
+    padding-top: 30px;
+}
